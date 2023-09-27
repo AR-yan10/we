@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="des">
+
+  <div class="container">
+    <h1>ClimateChamp</h1>
+    
+
+    <div>
+      <input class="input" type="text" id="location" placeholder="Enter location">
+      <button class="button" id="submit">Get Weather</button> 
+    </div>
+
+    <div id="weather"></div>
+
+    <div>
+      <label for="units">Units:</label>
+      <select id="units">
+        <option value="metric">Celsius</option>
+        <option value="imperial">Fahrenheit</option>  
+      </select>
+    </div>
+
+    <div id="error"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
